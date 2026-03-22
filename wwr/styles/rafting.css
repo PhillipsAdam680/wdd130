@@ -4,26 +4,21 @@
 }
 
 :root {
-    --primary-color: rgba(231, 185, 33, 0.681);
-    --secondary-color: #e5c047;
-    ;
-    --accent1-color: #e1ba0ed4;
-    --accent2-color: #ff0000a4;
-    --accent3-color: #870640;
+
+    --accent3-color: blue;
     --heading2-font: 'Bona Nova', +serif;
     --paragraph2-font: Lato, 'Lora', +serif;
     --heading-font: 'Rock Salt', cursive;
     --paragraph-font: 'Habibi', 'Ibarra Real Nova', serif;
     --nav-background-color: #eef0acee;
-    --nav-link-color: white;
-    --nav-hover-background-color: white;
-    --nav-hover-link-color: #ff8c00;
+    --text-color: white;
+
 }
 
 h1 {
 
     font-family: var(--heading-font);
-    color: var(--accent2-color);
+    color: var(--text-color);
     bottom: 10px;
 
 }
@@ -34,11 +29,11 @@ h4,
 h5,
 h6 {
     font-family: var(--heading2-font);
-    color: var(--accent2-color);
+    color: var(--text-color);
 }
 
 header {
-    background-color: var(--primary-color);
+    background-color: lightblue;
     color: white;
     padding: 1em;
     text-align: center;
@@ -54,11 +49,6 @@ header img {
 }
 
 nav {
-    /* margin-top: 30px;
-    padding: 5px;
-    width: 100px;
-    height: 20px;
-    margin-left: 1px; */
     line-height: 3em;
     text-align: center;
     font-size: 1.2em;
@@ -78,11 +68,6 @@ nav a:visited {
     color: var(--nav-link-color);
 }
 
-nav a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--nav-hover-background-color);
-}
-
 .hero {
     margin: 10px auto;
     position: relative;
@@ -98,17 +83,16 @@ nav a:hover {
     position: absolute;
     text-align: center;
     font-size: 2rem;
-    text-shadow: 3px 3px 5px #777;
-    margin-left: 40%;
-    margin-top: 20px;
-    color: var(--accent1-color);
-    background-color: rgba(218, 134, 65, 0.374);
+    margin-left: 1%;
+    margin-bottom: 27%;
+    color: blue;
+    background-color: lightblue;
 }
 
 .hero article {
     position: absolute;
     bottom: 30px;
-    background: radial-gradient(#9b7231db, #b5af54a7);
+    background: radial-gradient(lightblue);
     opacity: .9;
     color: white;
     margin: 10px;
@@ -136,7 +120,7 @@ p {
 }
 
 section {
-    background: radial-gradient(#449f8fce, #dddba0);
+    background: lightblue;
     margin: 10px;
 }
 
@@ -150,23 +134,19 @@ footer {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: #90d3dc6e;
+    background-color: lightblue;
     padding: 25px 20px;
     margin-top: 100px;
-    color: var(--accent2-color);
+    color: var(--text-color);
 }
 
-.sociallinks img {
+.socialmedia img {
+    height: auto;
     width: 40px;
 
 }
 
-.sociallinks a {
-    padding: 5px;
+.socialmedia a {
+    padding: 3px;
     margin: 3px;
-}
-
-.sociallinks a:hover {
-    color: var(--nav-hover-link-color);
-    background-color: var(--secondary-color)
 }
