@@ -7,8 +7,8 @@
 :root {
 
     --accent3-color: blue;
-    --heading2-font: 'Bona Nova', +serif;
-    --paragraph2-font: 'Lora', +serif;
+    --heading2-font: 'Bona Nova', serif;
+    --paragraph2-font: 'Lora', serif;
     --heading-font: 'Lora', cursive;
     --paragraph-font: 'Habibi', 'Ibarra Real Nova', serif;
     --text-color: white;
@@ -85,16 +85,16 @@ nav a:visited {
     font-size: 2rem;
     margin-left: 1%;
     margin-bottom: 27%;
-    color: white;
+    color: blue;
     background-color: lightblue;
 }
 
 .hero article {
     position: absolute;
     bottom: 30px;
-    background: radial-gradient(lightblue);
+    background: lightblue;
     opacity: .9;
-    color: white;
+    color: blue;
     margin: 10px;
     padding: 10px;
     text-align: center;
