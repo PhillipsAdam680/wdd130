@@ -1,16 +1,15 @@
 * {
-    margin: auto;
-    padding: auto;
+    margin: 0;
+    padding: 0;
 }
 
 :root {
 
     --accent3-color: blue;
     --heading2-font: 'Bona Nova', +serif;
-    --paragraph2-font: Lato, 'Lora', +serif;
-    --heading-font: 'Rock Salt', cursive;
+    --paragraph2-font: 'Lora', +serif;
+    --heading-font: 'Lora', cursive;
     --paragraph-font: 'Habibi', 'Ibarra Real Nova', serif;
-    --nav-background-color: #eef0acee;
     --text-color: white;
 
 }
@@ -85,7 +84,7 @@ nav a:visited {
     font-size: 2rem;
     margin-left: 1%;
     margin-bottom: 27%;
-    color: blue;
+    color: white;
     background-color: lightblue;
 }
 
