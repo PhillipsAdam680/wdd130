@@ -29,7 +29,7 @@ h4,
 h5,
 h6 {
     font-family: var(--heading2-font);
-    color: var(--text-color);
+    color: blue;
 }
 
 header {
@@ -94,7 +94,7 @@ nav a:visited {
     bottom: 30px;
     background: lightblue;
     opacity: .9;
-    color: blue;
+    color: black;
     margin: 10px;
     padding: 10px;
     text-align: center;
@@ -137,7 +137,7 @@ footer {
     background-color: lightblue;
     padding: 25px 20px;
     margin-top: 100px;
-    color: var(--text-color);
+    color: blue;
 }
 
 .socialmedia img {
