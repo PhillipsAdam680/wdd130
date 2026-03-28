@@ -37,8 +37,9 @@ header {
     color: blue;
     padding: 1em;
     text-align: center;
-    display: flex;
-
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    align-items: center;
 }
 
 header img {
@@ -122,6 +123,7 @@ p {
 section {
     background: lightblue;
     margin: 10px;
+    text-align: center;
 }
 
 section img {
@@ -143,10 +145,25 @@ footer {
 .socialmedia img {
     height: auto;
     width: 40px;
+    display: grid;
+    grid-template-columns: 450px 1fr;
+    align-items: center;
 
 }
 
 .socialmedia a {
     padding: 3px;
     margin: 3px;
+}
+
+.trip {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+
+.tripimg {
+    width: 400px;
+    height: auto;
 }
