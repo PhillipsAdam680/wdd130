@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <meta name="description"
+      content=" This is the page that holds the contact information and how to contact the Splash Rafting company.">
+    <meta name="author" content="Adam Phillips">
+    <link rel="stylesheet" href="styles/rafting.css">
+</head>
+
+<body>
+    <header>
+        <img src="images/z-splash.png" alt="Rafting logo">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Spalsh Rafting</h2>
+            <p>54321 Frontier Street</p>
+            <p>Seattle, Washington</p>
+            <p>+1 801 555 5555</p>
+            <P>info@splashrafting.com</p>
+            <div><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8130.456552362732!2d-122.03768625671849!3d47.58020254233386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490102c93e83355%3A0x102565466944d59a!2sSeattle%2C%20WA!5e0!3m2!1sen!2sus!4v1775268718008!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+
+            <form action="[Your Form Action URL]" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                
+                <fieldset>
+                    <legend>Purpose of Message:</legend>
+                    <label><input type="radio" name="purpose" value="General Inquiry"> General Inquiry</label>
+                    <label><input type="radio" name="purpose" value="Reservation Question"> Reservation Question</label>
+                    <label><input type="radio" name="purpose" value="Website Suggestion"> Website Suggestion</label>
+                </fieldset>
+                
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+                
+                <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label>
+                
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section>
+            <h2>We are here to serve you!</h2>
+            <figure class="trip">
+                <figure class="tripimg">
+                    <img src="images/rafting58_600.jpg" alt="trip 1">
+                    <figcaption>St. Raven River</figcaption>
+                </figure>
+                <figure class="tripimg">
+                    <img src="images/rafting53_600.jpg" alt="trip 1">
+                    <figcaption>Boar River</figcaption>
+                </figure>
+                <figure class="tripimg">
+                    <img src="images/rafting26_600.jpg" alt="trip 1">
+                    <figcaption>Otter Creek</figcaption>
+                </figure>
+            </figure>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-text">
+        <p>&copy; 2026 Splash Rafting | Adam Phillips.</p>
+        </div>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+                <img src="images/facebook.svg" alt="Facebook Icon">
+            </a>
+            <a href="https://linkedin.com">
+                <img src="images/linkedin.svg" alt="LinkedIn Icon">
+            </a>
+            <a href="https://instagram.com">
+                <img src="images/instagram-square.svg" alt="Instagram Icon">
+            </a>
+        </nav>
+    </footer>
+</body>
+
+
+</html>
