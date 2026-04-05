@@ -140,15 +140,14 @@ footer {
     padding: 1 rem;
     margin-top: 100px;
     color: blue;
-    gap: 1 rem ;
+    gap: 1 rem;
 
 }
 
 .footer-text {
-text-align: center;
-flex: 1;
+    text-align: center;
+    flex: 1;
 }
-
 
 .socialmedia img {
     height: auto;
@@ -173,3 +172,44 @@ flex: 1;
     height: auto;
 }
 
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.contact-info {
+    margin: 20px 0;
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    align-items: flex-start;
+}
+
+iframe {
+    width: 400px;
+    height: 300px;
+
+}
+
+form {
+    width: 45%;
+}
+
+input,
+textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+textarea {
+    height: 80px;
+}
+
+button {
+    padding: 10px;
+    width: 100%;
+}
