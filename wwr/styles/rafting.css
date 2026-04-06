@@ -18,7 +18,7 @@
 h1 {
 
     font-family: var(--heading-font);
-    color: var(--text-color);
+    color: blue;
     bottom: 10px;
 
 }

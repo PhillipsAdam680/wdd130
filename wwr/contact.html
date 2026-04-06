@@ -32,27 +32,27 @@
             <div class="contact-section">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8130.456552362732!2d-122.03768625671849!3d47.58020254233386!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5490102c93e83355%3A0x102565466944d59a!2sSeattle%2C%20WA!5e0!3m2!1sen!2sus!4v1775268718008!5m2!1sen!2sus"
-                  width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"
+                  width="400" height="300"  allowfullscreen="" loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"></iframe>
 
 
                 <!-- Form -->
                 <form>
                     <label>Name</label>
-                    <input type="text" placeholder="Placeholder">
+                    <input [type="text"] placeholder="Placeholder">
 
                     <label>Email</label>
-                    <input type="email" placeholder="Placeholder">
+                    <input [type="email"] placeholder="Placeholder">
 
                     <p><strong>Message Purpose</strong></p>
-                    <input type="radio" name="purpose"> General Inquiry<br>
-                    <input type="radio" name="purpose"> Reservation Question<br>
-                    <input type="radio" name="purpose"> Website Suggestion<br><br>
+                    <input [type="radio"] name="purpose"> General Inquiry<br>
+                    <input [type="radio"] name="purpose"> Reservation Question<br>
+                    <input [type="radio"] name="purpose"> Website Suggestion<br><br>
 
                     <label>Message</label>
                     <textarea placeholder="Type here"></textarea>
 
-                    <input type="checkbox"> Please subscribe me to the monthly newsletter<br><br>
+                    <input [type="checkbox"]> Please subscribe me to the monthly newsletter<br><br>
 
                     <button type="submit">Get in Touch!</button>
                 </form>
