@@ -38,21 +38,22 @@
 
                 <!-- Form -->
                 <form>
-                    <label>Name</label>
-                    <input type="text" placeholder="Placeholder">
+                    <label for="username">Name</label>
+                    <input type="text" id="username" name="username" placeholder="Placeholder">
 
-                    <label>Email</label>
-                    <input type="email" placeholder="Placeholder">
+                    <label for="useremail">Email</label>
+                    <input type="email" id="useremail" name="useremail" placeholder="Placeholder">
 
                     <p><strong>Message Purpose</strong></p>
-                    <input type="radio" name="purpose"> General Inquiry<br>
-                    <input type="radio" name="purpose"> Reservation Question<br>
-                    <input type="radio" name="purpose"> Website Suggestion<br><br>
+                    
+                    <input type="radio" name="purpose1" id="purpose1"><label for="purpose1">General Inquiry</label>
+                    <input type="radio" name="purpose2" id="purpose2"><label for="purpose2">Reservation Question</label>
+                    <input type="radio" name="purpose3" id="purpose3"><label for="purpose3">Website Suggestion</label>
 
-                    <label>Message</label>
-                    <textarea placeholder="Type here"></textarea>
-
-                    <input type="checkbox"> Please subscribe me to the monthly newsletter<br><br>
+                    <label for="message">Message</label>
+                    <textarea placeholder="Type here" name="message" id="message"></textarea>
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
+                    <input type="checkbox" name="newsletter" id="newsletter">
 
                     <button type="submit">Get in Touch!</button>
                 </form>
