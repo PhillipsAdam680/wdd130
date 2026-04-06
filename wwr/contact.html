@@ -38,22 +38,36 @@
 
                 <!-- Form -->
                 <form>
+                <div class="form-row">
                     <label for="username">Name</label>
                     <input type="text" id="username" name="username" placeholder="Placeholder">
-
+                </div>
+                <div class="form-row">  
                     <label for="useremail">Email</label>
                     <input type="email" id="useremail" name="useremail" placeholder="Placeholder">
-
-                    <p><strong>Message Purpose</strong></p>
+                    </div> 
+                <div class="form-row">
+                    <p>Message<br> Purpose</p>
+                    <div class="radio-group">
+                        <label class="option">
+                        <input type="radio" name="purpose"> General Inquiry
+                        </label>
+                        <label class="option">
+                        <input type="radio" name="purpose"> Reservation Question
+                        </label>
+                        <label class="option">
+                        <input type="radio" name="purpose"> Website Suggestion
+                        </label>
+                    </div>
+                </div>
                     
-                    <input type="radio" name="purpose1" id="purpose1"><label for="purpose1">General Inquiry</label>
-                    <input type="radio" name="purpose2" id="purpose2"><label for="purpose2">Reservation Question</label>
-                    <input type="radio" name="purpose3" id="purpose3"><label for="purpose3">Website Suggestion</label>
-
                     <label for="message">Message</label>
-                    <textarea placeholder="Type here" name="message" id="message"></textarea>
-                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
-                    <input type="checkbox" name="newsletter" id="newsletter">
+                    <textarea placeholder="type here" id="message"></textarea>
+
+                    <label class="checkbox-line">
+                    <input type="checkbox">
+                    Please subscribe me to the monthly newsletter
+                    </label>
 
                     <button type="submit">Get in Touch!</button>
                 </form>
@@ -65,16 +79,16 @@
             <h2>We are here to serve you!</h2>
             <figure class="trip">
                 <figure class="tripimg">
-                    <img src="images/rafting58_600.jpg" alt="trip 1">
-                    <figcaption>St. Raven River</figcaption>
+                    <img src="images/OIP-1659797837.jpg" alt="sarahprofile">
+                    <figcaption>Sarah</figcaption>
                 </figure>
                 <figure class="tripimg">
-                    <img src="images/rafting53_600.jpg" alt="trip 1">
-                    <figcaption>Boar River</figcaption>
+                    <img src="images/OIP-2318172411.jpg" alt="chadprofile">
+                    <figcaption>Chad</figcaption>
                 </figure>
                 <figure class="tripimg">
-                    <img src="images/rafting26_600.jpg" alt="trip 1">
-                    <figcaption>Otter Creek</figcaption>
+                    <img src="images/OIP-579532492.jpg" alt="christopherprofile">
+                    <figcaption>Christopher</figcaption>
                 </figure>
             </figure>
         </section>
