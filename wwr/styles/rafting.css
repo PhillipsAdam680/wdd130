@@ -223,10 +223,10 @@ button {
     text-align: left;
 }
 
-
 .form-row {
     display: grid;
-    grid-template-columns: 90px 1fr; /* label | input */
+    grid-template-columns: 90px 1fr;
+    /* label | input */
     align-items: start;
     margin-bottom: 5px;
 }
@@ -242,3 +242,8 @@ button {
     gap: 6px;
 }
 
+.mission {
+    text-align: center;
+    padding: 10px;
+    width: 400px;
+}
