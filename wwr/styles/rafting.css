@@ -247,3 +247,25 @@ button {
     padding: 10px;
     width: 400px;
 }
+
+.click {
+    align-items: center;
+    padding: 10px;
+    width: 700px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Merges cell borders */
+}
+
+th, td {
+    border: 1px solid #ddd; /* Adds borders to cells */
+    padding: 12px; /* Adds space inside cells */
+    text-align: center; /* Aligns text to the left */
+}
+
+th {
+    background-color: #4CAF50; /* Header background color */
+    color: white; /* Header text color */
+}
