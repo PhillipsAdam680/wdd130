@@ -60,8 +60,8 @@ nav {
 
 nav a {
     padding: 1em;
-    min-width: 120px;
     text-decoration: none;
+    
 }
 
 nav a:link,
@@ -142,22 +142,30 @@ footer {
     color: blue;
     gap: 1rem;
 
+
+
 }
 
 .footer-text {
     text-align: center;
-    flex: 1;
+
+    border: solid red;
 }
 
 .socialmedia img {
     height: auto;
     width: 40px;
+    padding: 0px;
+    margin: 0;
+
 
 }
 
 .socialmedia {
-    gap: 0.5rem;
     display: flex;
+    border: solid green;
+    padding: 0;
+    margin: 0;
 }
 
 .trip {
@@ -260,12 +268,31 @@ table {
 }
 
 th, td {
-    border: 1px solid #ddd; /* Adds borders to cells */
+    border: 1px solid darkblue; /* Adds borders to cells */
     padding: 12px; /* Adds space inside cells */
     text-align: center; /* Aligns text to the left */
+    
 }
 
 th {
     background-color: #4CAF50; /* Header background color */
     color: white; /* Header text color */
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.image {
+    float: center; /* or float: right; */
+    margin: 0 15px; /* Add margin for spacing */
+    width: 100px;
+}
+
+.container{
+    border: solid blue;
+    width: 50%;
+    
 }
