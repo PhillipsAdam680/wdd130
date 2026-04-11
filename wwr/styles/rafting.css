@@ -60,7 +60,7 @@ nav {
 
 nav a {
     padding: 1em;
-    text-decoration: none;
+    text-decoration: underline;
     
 }
 
@@ -134,22 +134,17 @@ section img {
 
 footer {
     display: flex;
-    justify-content: space-between;
+    justify-content: right;
     align-items: center;
     background-color: lightblue;
     padding: 1rem;
     margin-top: 100px;
     color: blue;
-    gap: 1rem;
-
-
-
+    gap: 8rem;
 }
 
 .footer-text {
     text-align: center;
-
-    border: solid red;
 }
 
 .socialmedia img {
@@ -157,13 +152,10 @@ footer {
     width: 40px;
     padding: 0px;
     margin: 0;
-
-
 }
 
 .socialmedia {
     display: flex;
-    border: solid green;
     padding: 0;
     margin: 0;
 }
@@ -285,14 +277,23 @@ ul {
     padding: 0;
 }
 
-.image {
-    float: center; /* or float: right; */
-    margin: 0 15px; /* Add margin for spacing */
-    width: 100px;
-}
 
 .container{
-    border: solid blue;
-    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(3, 170px) ;
+    grid-template-rows: 175px;
+    gap: 60px;
+    align-items: center;
+    justify-content: center;
+    text-align: left;
+    place-items: center;
     
 }
+
+.image {
+    align-items: center;
+    width: 230px;
+    height: auto;
+    margin: 5px;
+}
+
